@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#Schedule>h1{
+    margin: .5rem;
+}
+#Schedule>label{
+    margin: 0.5rem;
+    font-size: 1.2rem;
+}
+#Schedule>select{
+    height: 4vh;
+    width: 6rem;
+}
+
+.Subjects>li{
+    width: 60%;
+    height: 2.5%;
+    background-color: bisque;
+    margin: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+.subject{
+    font-size: 1.5rem;
+}
+.time-and-date{
+    font-size: 1.2rem;
+}
+#exams{
+    margin-top: 2rem;
+}
+
+#exams>h1{
+    margin: 0.5rem;
+}
+
+#Calendar{
+    border: 1px solid rgb(0, 0, 0);
+    width: 20rem;
+    height: 10%;
+    border-radius: 5%;
+    padding: .5rem;
+    margin-left: .5rem;
+}
+.title{
+    height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;
+}
+.title>p{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.day-date>ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: .5rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.day-date>ul>li{
+    width: calc(100%/7);
+}
+#days>li:hover{
+    border: 1px solid black;
+    border-radius: 10%;
+}
+#inactive{
+    opacity: .5;
+}   
